@@ -1,9 +1,9 @@
 # Uplyft Full-Stack Chatbot Assignment
 
-## 💡 Description
+## Description
 An e-commerce chatbot built with React (frontend) and Flask (backend). Supports product search, JWT login, chat logging, reset, and session tracking.
 
-## 🚀 Tech Stack
+## Tech Stack
 - Frontend: React + plain CSS
 - Backend: Flask (Python) + PyJWT
 - Auth: JWT-based login
