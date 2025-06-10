@@ -3,39 +3,45 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f4f8;
+  background-color: #f5f7fa;
 }
 
 .login-form {
   background: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: 320px;
-}
-
-.login-form h2 {
-  margin-bottom: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
   text-align: center;
 }
 
-.login-form input {
+.login-form h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.inp {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
   font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 
-.login-form button {
+button[type="submit"] {
   width: 100%;
   padding: 12px;
   font-size: 16px;
   background-color: #007bff;
   color: white;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-.login-form button:hover {
+button[type="submit"]:hover {
   background-color: #0056b3;
 }

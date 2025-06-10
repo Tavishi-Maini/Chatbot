@@ -37,12 +37,14 @@ function Login() {
       <form onSubmit={handleLogin} className="login-form">
         <h2>Login to Chatbot</h2>
         <input
+          className='inp'
           type="email"
-          placeholder="Email"
+          placeholder="Email (all small letters)"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required />
         <input
+          className='inp'
           type="password"
           placeholder="Password"
           value={password}

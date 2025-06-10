@@ -10,7 +10,8 @@ SECRET_KEY = "supersecret"  # In production, use environment variables
 
 # Simulated users (for login)
 users = {
-    "demo@uplyft.com": "pass123"
+    "demo@uplyft.com": "pass123",
+    "tavishimaini@gmail.com": "happy456"
 }
 
 # Mock products
