@@ -83,6 +83,13 @@ function App() {
         <button onClick={resetChat} style={{ marginRight: "10px" }}>
           Reset Chat
         </button>
+        <button onClick={() => {
+          localStorage.clear();
+          window.location.href = "/";
+        }}>
+          Logout
+        </button>
+
 
         <input
           type="text"
