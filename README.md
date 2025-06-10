@@ -25,7 +25,6 @@ npm install
 npm start
 Runs at: http://localhost:3000
 
-
 ### Backend
 ```bash
 cd chatbot-backend
